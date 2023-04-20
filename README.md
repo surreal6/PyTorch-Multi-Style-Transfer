@@ -42,6 +42,11 @@ This repo provides PyTorch Implementation of **[MSG-Net (ours)](#msg-net)** and 
 	python camera_demo.py demo --model models/21styles.model
 	```
 	![](images/myimage.gif)
+
+0. Modified Camera Demo
+	```bash
+	python3 camera_demo_carlos.py demo --model models/21styles.model --cuda=1 --record=1
+	
 0. Test the model
 	```bash
 	python main.py eval --content-image images/content/venice-boat.jpg --style-image images/21styles/candy.jpg --model models/21styles.model --content-size 1024
